@@ -1,0 +1,72 @@
+.bg-mynav{
+    background-color: rgb(0.0,0.0,0.0,0.7);
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.home{
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    
+    height: 100vh;
+}
+
+.home .nav-link{
+    color: white;
+}
+
+.homelayer{
+    background-color: rgb(0.0,0.0,0.0,0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.layercontent{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+}
+p{
+    font-size: 40px;
+}
+.typing::after{
+    content: "Developer";
+    animation-name: skill;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes skill{
+    0%{content: "|";}
+    2%{content: "D|";}
+    4%{content: "DE|";}
+    6%{content: "DEV|";}
+    8%{content: "DEVE|";}
+    10%{content: "DEVEO|";}
+    12%{content: "DEVEOL|";}
+    14%{content: "DEVEOLP|";}
+    16%{content: "DEVEOLPE|";}
+    18%{content: "DEVEOLOPER|";}
+    30%{content: "DEVEOLPE|";}
+    32%{content: "DEVEOLP|";}
+    34%{content: "DEVEOL|";}
+    36%{content: "DEVEO|";}
+    38%{content: "DEVE|";}
+    40%{content: "DEV|";}
+    42%{content: "DE|";}
+    44%{content: "D|";}
+    46%{content: "|";}
+    100%{content: "|";}
+}
